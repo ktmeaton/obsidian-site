@@ -27,7 +27,7 @@ To simplify things, I provide the template showed in the image above to get star
 
 Visit the GitHub page for my template repository [[Maxence-L/notenote.link::https://github.com/Maxence-L/notenote.link]], and fork it to your account using the Fork button:
 
-> <img src="/assets/img/fork_button.jpg" style="box-shadow: 2px 2px 20px 0 #ddd;"/>
+> <img src="../assets/img/fork_button.jpg" style="box-shadow: 2px 2px 20px 0 #ddd;"/>
 
 Once the forking process is complete, you should have a fork (essentially a copy) of my template in your own GitHub account. On the GitHub page for your repository, click on the green “Clone or download” button, and copy the URL: we’ll need it for the next step.
 
