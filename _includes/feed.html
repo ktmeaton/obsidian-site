@@ -1,6 +1,5 @@
-
-
-{%- if page.permalink == site.baseurl -%}
+<!-- Notes Feed for the Home Page-->
+{%- if page.permalink == "/" -%}
     {%- for item in site.notes -%}
         {%- if item.season == 'summer' -%}
         <div class="feed-title-excerpt-block disable-select" data-url="{{site.baseurl}}{{item.url}}">
@@ -63,6 +62,7 @@
         {%- endfor -%}
 {%- endif -%}
 
+<!-- Notes Catalogue for the Notes Page-->
 {%- if page.permalink == "/notes" -%}
 {%- for item in site.notes -%}
 <div class="feed-title-excerpt-block disable-select" data-url="{{site.baseurl}}{{item.url}}">
