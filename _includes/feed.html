@@ -1,7 +1,7 @@
 <!-- Notes Feed for the Home Page-->
 {%- if page.permalink == "/" -%}
     {%- for item in site.notes -%}
-        {%- if item.season == 'summer' -%}
+        {%- if item.status == 'priority' -%}
         <div class="feed-title-excerpt-block disable-select" data-url="{{site.baseurl}}{{item.url}}">
             <a href="{{site.baseurl}}{{item.url}}" style="text-decoration: none; color: #555555;">
             {%- if item.status == "Ongoing" or item.status == "ongoing" -%}
