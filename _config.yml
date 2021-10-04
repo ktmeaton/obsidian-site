@@ -32,7 +32,8 @@ sass:
 collections:
     notes:
       output: true
-      permalink: /notes/:title
+      # Change the prefix here to the the baseurl
+      permalink: /obsidian-site/notes/:title
 
 toc:
   max_level: 3
@@ -43,7 +44,8 @@ defaults:
       type: posts
     values:
       layout: post
-      permalink: /posts/:title
+      # Change the prefix here to the the baseurl      
+      permalink: /obsidian-site/posts/:title
       content-type: post
   - scope:
       path: ""
